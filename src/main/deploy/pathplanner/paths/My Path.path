@@ -8,8 +8,24 @@
       },
       "prevControl": null,
       "nextControl": {
-        "x": 3.1,
-        "y": 7.0
+        "x": 3.652030258192039,
+        "y": 6.47292921155521
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 4.171,
+        "y": 7.396
+      },
+      "prevControl": {
+        "x": 3.7613124915974074,
+        "y": 7.434628156215844
+      },
+      "nextControl": {
+        "x": 4.580687508402593,
+        "y": 7.357371843784156
       },
       "isLocked": false,
       "linkedName": null
@@ -20,8 +36,8 @@
         "y": 6.0
       },
       "prevControl": {
-        "x": 5.0,
-        "y": 6.0
+        "x": 5.571717141800558,
+        "y": 6.2488651861075155
       },
       "nextControl": null,
       "isLocked": false,
@@ -30,13 +46,36 @@
   ],
   "rotationTargets": [
     {
-      "waypointRelativePos": 0.5,
+      "waypointRelativePos": 1.0,
       "rotationDegrees": 45.0
     }
   ],
   "constraintZones": [],
-  "pointTowardsZones": [],
-  "eventMarkers": [],
+  "pointTowardsZones": [
+    {
+      "fieldPosition": {
+        "x": 0.4,
+        "y": 5.5
+      },
+      "rotationOffset": 0.0,
+      "minWaypointRelativePos": 0.55,
+      "maxWaypointRelativePos": 1.2,
+      "name": "Point Towards Zone"
+    }
+  ],
+  "eventMarkers": [
+    {
+      "name": "Spot 1",
+      "waypointRelativePos": 0.45,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Test Command 1"
+        }
+      }
+    }
+  ],
   "globalConstraints": {
     "maxVelocity": 3.0,
     "maxAcceleration": 3.0,
